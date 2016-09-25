@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.marcin.nudzimisie">
+
+    <uses-sdk android:minSdkVersion="11" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name="com.example.marcin.com.nudzimisie.app.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/initialising_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.marcin.com.nudzimisie.Login"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".Register" />
+        <activity
+            android:name="com.example.marcin.com.nudzimisie.MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name="com.example.marcin.com.nudzimisie.UploadContent"
+            android:label="@string/title_activity_upload_content" />
+        <activity
+            android:name=".UploadActivity"
+            android:label="UploadActivity" />
+        <activity android:name="com.example.marcin.com.nudzimisie.StartScreen" />
+        <activity android:name="com.example.marcin.com.nudzimisie.ChcePozwiedzacConfig" />
+        <activity android:name="com.example.marcin.com.nudzimisie.Initialising_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.marcin.com.nudzimisie.ListaTras"
+            android:label="@string/title_activity_lista_tras" />
+        <activity android:name="com.example.marcin.com.nudzimisie.PierwszaTrasa"></activity>
+        <activity
+            android:name="com.example.marcin.com.nudzimisie.ListaTras"
+            android:label="@string/title_activity_lista_tras" />
+        <activity android:name="com.example.marcin.com.nudzimisie.DrugaTrasa"></activity>
+    </application>
+
+</manifest>

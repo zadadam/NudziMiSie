@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SocialFood</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="email_hint">E-mail</string>
+    <string name="email_or_username_hint">E-mail lub Nick</string>
+    <string name="password_hint">Hasło</string>
+    <string name="login_button_text">Zaloguj</string>
+    <string name="loading">Proszę czekać...</string>
+    <string name="register_tv">Nie masz jeszcze konta? <b>Zarejestruj się</b></string>
+    <string name="first_name_hint">Imię (Opcjonalnie)</string>
+    <string name="last_name_hint">Nazwisko (Opcjonalnie)</string>
+    <string name="username_hint">Nick</string>
+    <string name="register_button">Zarejestruj</string>
+    <string name="password2_hint">Wprowadź hasło jeszcze raz</string>
+    <string name="no_internet_to">Nie masz podłączonego internetu</string>
+    <string name="action_search">Szukaj</string>
+    <string name="action_take_picture">Zrób zdjęcie</string>
+    <string name="action_logout">Wyloguj</string>
+    <string name="action_add_picture">Dodaj zdjęcie</string>
+    <string name="double_back_on_exit_toas">Naciśnij jeszcze raz wstecz by wyjść z aplikacji</string>
+    <string name="btnTakePicture">Zrób zdjęcie</string>
+    <string name="btnRecordVideo">Nagraj filmik</string>
+    <string name="or">(lub)</string>
+    <string name="btnUploadToServer">Wgraj na serwer</string>
+    <string name="action_add_content">Dodaj</string>
+</resources>
